@@ -1,23 +1,33 @@
+$transition: all .1s ease-in-out;
+
 .keybordContainer {
     display: grid;
     max-width: 780px;
     grid-template-columns: repeat(15, 1fr);
-    gap: 5px;
+    gap: 10px;
 
     .key {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid #666;
         border-radius: 3px;
         text-transform: uppercase;
         padding: 5px;
         color: #666;
-        background-color: #fff;
+        background: #e0e0e0;
+        box-shadow:  5px 5px 9px #bebebe,
+                    -5px -5px 9px #ffffff;
+        transform: scale(1);
+        transition: $transition;
 
         &.press {
-            color: #fff;
-            background-color: #666;
-        } 
+            box-shadow: inset 5px 5px 9px #bebebe,
+                        inset -5px -5px 9px #ffffff;
+        }
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
     }
 }

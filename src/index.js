@@ -4,6 +4,7 @@ import keyboardList from './keyboard.json';
 const body = document.querySelector('body');
 
 const textarea = document.createElement('textarea');
+textarea.focus = true;
 body.append(textarea);
 
 const keybordContainer = document.createElement('div');
