@@ -158,24 +158,24 @@
     {
         "code": "Backspace",
         "ru": {
-            "keyValue": "Backspace",
-            "keyValueShift": "Backspace"
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "en": {
-            "keyValue": "Backspace",
-            "keyValueShift": "Backspace"
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "length": 2
     },
     {
         "code": "Tab",
         "ru": {
-            "keyValue": "Tab",
-            "keyValueShift": "Tab"
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "en": {
-            "keyValue": "Tab",
-            "keyValueShift": "Tab"
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "length": 1
     },
@@ -338,24 +338,24 @@
     {
         "code": "Delete",
         "ru": {
-            "keyValue": "Delete",
-            "keyValueShift": "Delete"
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "en": {
-            "keyValue": "Delete",
-            "keyValueShift": "Delete"
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "length": 1
     },
     {
         "code": "CapsLock",
         "ru": {
-            "keyValue": "CapsLock",
-            "keyValueShift": "CapsLock"
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "en": {
-            "keyValue": "CapsLock",
-            "keyValueShift": "CapsLock"
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "length": 2
     },
@@ -494,24 +494,24 @@
     {
         "code": "Enter",
         "ru": {
-            "keyValue": "Enter",
-            "keyValueShift": "Enter"
+            "keyValue": "\n",
+            "keyValueShift": "\n"
         },
         "en": {
-            "keyValue": "Enter",
-            "keyValueShift": "Enter"
+            "keyValue": "\n",
+            "keyValueShift": "\n"
         },
         "length": 2
     },
     {
         "code": "ShiftLeft",
         "ru": {
-            "keyValue": "ShiftLeft",
-            "keyValueShift": "ShiftLeft"
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "en": {
-            "keyValue": "ShiftLeft",
-            "keyValueShift": "ShiftLeft"
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "length": 2
     },
@@ -584,6 +584,198 @@
         "en": {
             "keyValue": "b",
             "keyValueShift": "B"
+        },
+        "length": 1
+    },
+    {
+        "code": "KeyN",
+        "ru": {
+            "keyValue": "т",
+            "keyValueShift": "Т"
+        },
+        "en": {
+            "keyValue": "n",
+            "keyValueShift": "N"
+        },
+        "length": 1
+    },
+    {
+        "code": "KeyM",
+        "ru": {
+            "keyValue": "ь",
+            "keyValueShift": "Ь"
+        },
+        "en": {
+            "keyValue": "m",
+            "keyValueShift": "M"
+        },
+        "length": 1
+    },
+    {
+        "code": "Comma",
+        "ru": {
+            "keyValue": "б",
+            "keyValueShift": "Б"
+        },
+        "en": {
+            "keyValue": ",",
+            "keyValueShift": "<"
+        },
+        "length": 1
+    },
+    {
+        "code": "Period",
+        "ru": {
+            "keyValue": "ю",
+            "keyValueShift": "Ю"
+        },
+        "en": {
+            "keyValue": ".",
+            "keyValueShift": ">"
+        },
+        "length": 1
+    },
+    {
+        "code": "Slash",
+        "ru": {
+            "keyValue": ".",
+            "keyValueShift": ","
+        },
+        "en": {
+            "keyValue": "/",
+            "keyValueShift": "?"
+        },
+        "length": 1
+    },
+    {
+        "code": "ArrowUp",
+        "ru": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "en": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "length": 1
+    },
+    {
+        "code": "ShiftRight",
+        "ru": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "en": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "length": 1
+    },
+    {
+        "code": "ControlLeft",
+        "ru": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "en": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "length": 1
+    },
+    {
+        "code": "MetaLeft",
+        "ru": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "en": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "length": 1
+    },
+    {
+        "code": "AltLeft",
+        "ru": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "en": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "length": 1
+    },
+    {
+        "code": "Space",
+        "ru": {
+            "keyValue": " ",
+            "keyValueShift": " "
+        },
+        "en": {
+            "keyValue": " ",
+            "keyValueShift": " "
+        },
+        "length": 7
+    },
+    {
+        "code": "AltRight",
+        "ru": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "en": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "length": 1
+    },
+    {
+        "code": "ControlRight",
+        "ru": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "en": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "length": 1
+    },
+    {
+        "code": "ArrowLeft",
+        "ru": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "en": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "length": 1
+    },
+    {
+        "code": "ArrowDown",
+        "ru": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "en": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "length": 1
+    },
+    {
+        "code": "ArrowRight",
+        "ru": {
+            "keyValue": "",
+            "keyValueShift": ""
+        },
+        "en": {
+            "keyValue": "",
+            "keyValueShift": ""
         },
         "length": 1
     }

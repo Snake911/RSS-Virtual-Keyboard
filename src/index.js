@@ -21,22 +21,31 @@ keyboardList.forEach((keyObject) => {
     key.style.gridColumn = `span ${keyObject.length}`;
     key.id = keyObject.code;
     key.addEventListener('mousedown', (e) => {
+        e.preventDefault();
         key.classList.add('press');
+        document.dispatchEvent(new KeyboardEvent('keydown', {code: keyObject.en.keyValue, key: keyObject.en.keyValue}))
     });
     key.addEventListener('mouseup', (e) => {
+        e.preventDefault();
+        key.dispatchEvent(new KeyboardEvent('keyup'))
         key.classList.remove('press');
     });
     keybordContainer.append(key);         
 });
 
 document.addEventListener('keydown', (e) => {
-    e.preventDefault();
-    const pressKey = document.getElementById(e.code);
-    pressKey.classList.add('press');
+    if(e.isTrusted) {
+        const pressKey = document.getElementById(e.code);
+        pressKey.classList.add('press');
+    } else {
+        textarea.value += e.key;
+    }  
 });
 
 document.addEventListener('keyup', (e) => {
-    e.preventDefault();
-    const pressKey = document.getElementById(e.code);
-    pressKey.classList.remove('press');
+    if(e.isTrusted) {
+        const pressKey = document.getElementById(e.code);
+        pressKey.classList.remove('press');
+    }
 });
+

@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 $transition: all .1s ease-in-out;
 * {
     box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .container {
-    max-width: 780px;
+    max-width: 840px;
     margin: 0 auto;
+    padding: 20px 30px;
+    background: #e0e0e0;
+    border-radius: 3px;
 }
 
 textarea {
@@ -20,6 +26,7 @@ textarea {
     font-weight: 600;
     height: 230px;
     resize: vertical;
+    border-radius: 3px;
 }
 
 .keybordContainer {
@@ -27,6 +34,7 @@ textarea {
     max-width: 780px;
     width: 100%;
     grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     gap: 10px;
 
     .key {
