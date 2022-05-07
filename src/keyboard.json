@@ -157,6 +157,7 @@
     },
     {
         "code": "Backspace",
+        "name": "Backspace",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -169,6 +170,7 @@
     },
     {
         "code": "Tab",
+        "name": "Tab",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -337,6 +339,7 @@
     },
     {
         "code": "Delete",
+        "name": "Del",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -349,6 +352,7 @@
     },
     {
         "code": "CapsLock",
+        "name": "Caps Lock",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -493,6 +497,7 @@
     },
     {
         "code": "Enter",
+        "name": "Enter",
         "ru": {
             "keyValue": "\n",
             "keyValueShift": "\n"
@@ -505,6 +510,7 @@
     },
     {
         "code": "ShiftLeft",
+        "name": "Shift",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -649,6 +655,7 @@
     },
     {
         "code": "ArrowUp",
+        "name": "🠑",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -661,6 +668,7 @@
     },
     {
         "code": "ShiftRight",
+        "name": "Shift",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -673,6 +681,7 @@
     },
     {
         "code": "ControlLeft",
+        "name": "Ctrl",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -685,6 +694,7 @@
     },
     {
         "code": "MetaLeft",
+        "name": "🗗",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -697,6 +707,7 @@
     },
     {
         "code": "AltLeft",
+        "name": "Alt",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -721,6 +732,7 @@
     },
     {
         "code": "AltRight",
+        "name": "Alt",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -733,6 +745,7 @@
     },
     {
         "code": "ControlRight",
+        "name": "Ctrl",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -745,6 +758,7 @@
     },
     {
         "code": "ArrowLeft",
+        "name": "🠐",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -757,6 +771,7 @@
     },
     {
         "code": "ArrowDown",
+        "name": "🠓",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""
@@ -769,6 +784,7 @@
     },
     {
         "code": "ArrowRight",
+        "name": "🠒",
         "ru": {
             "keyValue": "",
             "keyValueShift": ""

@@ -17,20 +17,20 @@ container.append(keybordContainer);
 keyboardList.forEach((keyObject) => {
     const key = document.createElement('div');
     key.classList.add('key');
-    key.innerText = keyObject.en.keyValue;
+    key.innerText = keyObject.name || keyObject.en.keyValue;
     key.style.gridColumn = `span ${keyObject.length}`;
     key.id = keyObject.code;
     key.addEventListener('mousedown', (e) => {
         e.preventDefault();
         key.classList.add('press');
-        document.dispatchEvent(new KeyboardEvent('keydown', {code: keyObject.en.keyValue, key: keyObject.en.keyValue}))
+        document.dispatchEvent(new KeyboardEvent('keydown', {code: keyObject.code, key: keyObject.en.keyValue}))
     });
     key.addEventListener('mouseup', (e) => {
         e.preventDefault();
         key.dispatchEvent(new KeyboardEvent('keyup'))
         key.classList.remove('press');
     });
-    keybordContainer.append(key);         
+    keybordContainer.append(key);
 });
 
 document.addEventListener('keydown', (e) => {
@@ -38,8 +38,24 @@ document.addEventListener('keydown', (e) => {
         const pressKey = document.getElementById(e.code);
         pressKey.classList.add('press');
     } else {
-        textarea.value += e.key;
-    }  
+        if(e.key) {
+            const value = textarea.value.split('');
+            const position = textarea.selectionStart;
+            value.splice(position, 0, e.key);
+            textarea.value = value.join('');
+            textarea.setSelectionRange(position + 1, position + 1);
+        }  
+    }
+
+    //arrows
+    if(!e.isTrusted && e.code === 'ArrowLeft' && textarea.selectionStart) {
+        const position = textarea.selectionStart - 1;
+        textarea.setSelectionRange(position, position);
+    }
+    if(!e.isTrusted && e.code === 'ArrowRight' && textarea.selectionStart) {
+        const position = textarea.selectionStart + 1;
+        textarea.setSelectionRange(position, position)
+    }
 });
 
 document.addEventListener('keyup', (e) => {
