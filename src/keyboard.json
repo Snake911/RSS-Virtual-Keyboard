@@ -172,12 +172,12 @@
         "code": "Tab",
         "name": "Tab",
         "ru": {
-            "keyValue": "",
-            "keyValueShift": ""
+            "keyValue": "\t",
+            "keyValueShift": "\t"
         },
         "en": {
-            "keyValue": "",
-            "keyValueShift": ""
+            "keyValue": "\t",
+            "keyValueShift": "\t"
         },
         "length": 1
     },
