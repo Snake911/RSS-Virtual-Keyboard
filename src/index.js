@@ -69,7 +69,9 @@ document.addEventListener('keydown', (e) => {
   keyPressed.push(e.code);
   if (e.isTrusted) {
     const pressKey = document.getElementById(e.code);
-    pressKey.classList.add('press');
+    if (pressKey) {
+      pressKey.classList.add('press');
+    }
     if (e.code === 'Tab') {
       e.preventDefault();
       const value = textarea.value.split('');
@@ -117,7 +119,9 @@ document.addEventListener('keyup', (e) => {
   keyPressed.splice(keyPressed.indexOf(e.code), 1);
   if (e.isTrusted) {
     const pressKey = document.getElementById(e.code);
-    pressKey.classList.remove('press');
+    if (pressKey) {
+      pressKey.classList.remove('press');
+    }
   }
 });
 
