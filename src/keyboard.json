@@ -657,12 +657,12 @@
         "code": "ArrowUp",
         "name": "🠑",
         "ru": {
-            "keyValue": "",
-            "keyValueShift": ""
+            "keyValue": "🠑",
+            "keyValueShift": "🠑"
         },
         "en": {
-            "keyValue": "",
-            "keyValueShift": ""
+            "keyValue": "🠑",
+            "keyValueShift": "🠑"
         },
         "length": 1
     },
@@ -760,12 +760,12 @@
         "code": "ArrowLeft",
         "name": "🠐",
         "ru": {
-            "keyValue": "",
-            "keyValueShift": ""
+            "keyValue": "🠐",
+            "keyValueShift": "🠐"
         },
         "en": {
-            "keyValue": "",
-            "keyValueShift": ""
+            "keyValue": "🠐",
+            "keyValueShift": "🠐"
         },
         "length": 1
     },
@@ -773,12 +773,12 @@
         "code": "ArrowDown",
         "name": "🠓",
         "ru": {
-            "keyValue": "",
-            "keyValueShift": ""
+            "keyValue": "🠓",
+            "keyValueShift": "🠓"
         },
         "en": {
-            "keyValue": "",
-            "keyValueShift": ""
+            "keyValue": "🠓",
+            "keyValueShift": "🠓"
         },
         "length": 1
     },
@@ -786,12 +786,12 @@
         "code": "ArrowRight",
         "name": "🠒",
         "ru": {
-            "keyValue": "",
-            "keyValueShift": ""
+            "keyValue": "🠒",
+            "keyValueShift": "🠒"
         },
         "en": {
-            "keyValue": "",
-            "keyValueShift": ""
+            "keyValue": "🠒",
+            "keyValueShift": "🠒"
         },
         "length": 1
     }

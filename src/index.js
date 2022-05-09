@@ -91,20 +91,10 @@ document.addEventListener('keydown', (e) => {
       }
     } else {
       value.splice(position, 0, e.key);
-      position += 1;
+      position += e.key.length;
     }
 
     textarea.value = value.join('');
-    textarea.setSelectionRange(position, position);
-  }
-
-  // arrows
-  if (!e.isTrusted && e.code === 'ArrowLeft' && textarea.selectionStart) {
-    const position = textarea.selectionStart - 1;
-    textarea.setSelectionRange(position, position);
-  }
-  if (!e.isTrusted && e.code === 'ArrowRight' && textarea.selectionStart) {
-    const position = textarea.selectionStart + 1;
     textarea.setSelectionRange(position, position);
   }
 
